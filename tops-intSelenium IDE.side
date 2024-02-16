@@ -1,0 +1,237 @@
+{
+  "id": "9254b195-8c98-4f5c-a61b-0bfec38c7333",
+  "version": "2.0",
+  "name": "tops-int(Selenium IDE)",
+  "url": "https://www.tops-int.com",
+  "tests": [{
+    "id": "419d0e3f-887b-43fb-90cb-3ab30112a2bb",
+    "name": "GuestcallBack_recording",
+    "commands": [{
+      "id": "34c6583a-ba39-4de6-85af-a5ad7ecfb0e3",
+      "comment": "",
+      "command": "open",
+      "target": "/contact-us",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b37de79-c272-4289-a36a-8a8887013602",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05e441d3-7a7c-4425-8aad-c22f2ada4e0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=location-tab-6",
+      "targets": [
+        ["id=location-tab-6", "id"],
+        ["css=#location-tab-6", "css:finder"],
+        ["xpath=//button[@id='location-tab-6']", "xpath:attributes"],
+        ["xpath=//div[@id='location-tabDiv']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Surat (Varachha)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3829e673-8256-4894-bf97-f74d1c0e542a",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52c38ed7-a3fa-4984-b9a7-f4a1adba8e84",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "f654a7d3-1d8d-4c83-a0a6-c61349bfdddc",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3fd15c8-0d9d-4cf0-8343-da4c5d8b5d3b",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Test@gmail.com"
+    }, {
+      "id": "3676fb6f-60c7-488c-9342-a8cc9b927129",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Send Inquiry",
+      "targets": [
+        ["linkText=Send Inquiry", "linkText"],
+        ["css=.px-3 > div .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Send Inquiry')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[162]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Send Inquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37007761-4798-4bd4-98f3-8f8ca7a66977",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Send Inquiry",
+      "targets": [
+        ["linkText=Send Inquiry", "linkText"],
+        ["css=.px-3 > div .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Send Inquiry')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[162]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Send Inquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a4d7abf-8cdf-4d02-bf8d-fa94ff45dad7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Send Inquiry",
+      "targets": [
+        ["linkText=Send Inquiry", "linkText"],
+        ["css=.px-3 > div .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Send Inquiry')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[162]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Send Inquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac57ac31-18a7-4fab-a3b6-e7ed7fdb59ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-md-0",
+      "targets": [
+        ["css=.mt-md-0", "css:finder"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6504b9d7-52f5-4af9-8ee1-d4bad3e5abb5",
+    "name": "Menual_Command_GuestCallBack",
+    "commands": [{
+      "id": "f72e036e-1871-4bb7-8d82-038c51f284d4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tops-int.com/contact-us",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3349d5ee-b291-46d3-8c84-d9aec53d7730",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a113da7d-cc55-4448-b08d-889a83669d91",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_name",
+      "targets": [],
+      "value": "Test"
+    }, {
+      "id": "f950d6ae-8192-4729-89c5-760d4d5bc30c",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_email",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "065036be-7ca9-470e-9b03-3ff9d0d28281",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_email",
+      "targets": [],
+      "value": "test@test.com"
+    }, {
+      "id": "c48a06cf-9852-4d42-bae0-53d02b77f0d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pill1 .iti__selected-flag > .iti__flag",
+      "targets": [
+        ["css=#pill1 .iti__selected-flag > .iti__flag", "css:finder"],
+        ["xpath=//div[@id='pill1']/div/div[2]/div[2]/form/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fe6fa27-7e30-4e92-8a2c-db25ff774bc9",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_contact",
+      "targets": [],
+      "value": "7894561230"
+    }, {
+      "id": "8888553f-3f61-47b5-a1e5-64a6d0180c37",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Send Inquiry",
+      "targets": [
+        ["linkText=Send Inquiry", "linkText"],
+        ["css=#pill1 .col-md-4 .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Send Inquiry')]", "xpath:link"],
+        ["xpath=//a[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='pill1']/div/div[2]/div[2]/form/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[3]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Send Inquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2d594964-4a4c-4e03-b4f5-8d9689262406",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["419d0e3f-887b-43fb-90cb-3ab30112a2bb"]
+  }],
+  "urls": ["https://www.tops-int.com/"],
+  "plugins": []
+}
